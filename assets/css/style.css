@@ -1,0 +1,26 @@
+/**************************************************************
+*  Style sheet for Assignment 2: Bootstrap Profile
+*  Name: Sean Bryan
+*  Date: 2019-03-30
+***************************************************************/
+/* Element Selectors */
+body {
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+#shadowtext {
+    color: #FFF;
+    background-color: #232323;
+    /* text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18 */
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #d54b80, 0 0 30px #d54b80, 0 0 40px #d54b80, 0 0 55px #d54b80, 0 0 75px #d54b80
+}
+
+.birthday {
+    text-align: center;
+}
